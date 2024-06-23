@@ -15,14 +15,14 @@ def caesar(text,shift,direction):
             new_text += alphabet[new_position]
         else:
             new_text += char
-    print(f"The {direction}d text is {new_text}")
+    print(f"The {direction}d text is: {new_text}")
 
 while True:
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt: \n").lower()
     text = input("Type your message: \n")
     shift = int(input("Type the shift number: \n"))
 
-    shift = shift % 26 #nếu mà shift < 26 thì sẽ không chia được nên shift dữ nguyên
+    shift = shift % 26 #nếu mà shift < 26 thì sẽ không chia được nên shift giữ nguyên
     caesar(text,shift,direction)
 
     result = input("Type 'yes' if you want to go again. Otherwise type 'no'\n").lower()
