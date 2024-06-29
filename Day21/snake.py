@@ -10,8 +10,8 @@ RIGHT = 0
 
 class Snake:
     def __init__(self):
-        self.segments = []
-        self.create_snake()
+        self.segments = [] #create a list to store segments 
+        self.create_snake() #instead of create one by one, create function co create snake
         self.head = self.segments[0]
     
     def create_snake(self):
