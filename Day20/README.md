@@ -1,5 +1,5 @@
 Snake game (Part 1)
-Level: Beginer
+Level: Immediate
 Problem Breakdown:
 1. Create a snale body (3 squares)
 2. Move the snake

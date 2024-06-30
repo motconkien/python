@@ -1,6 +1,5 @@
-Snake Game(Part 2)
+Snake Game (Sending email and read file Plus)
 Level: Immediate
-Skill: OOP
 Problem Breakdown:
 1. Create a snale body (3 squares)
 2. Move the snake
