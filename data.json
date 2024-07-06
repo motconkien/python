@@ -1,0 +1,102 @@
+[
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Video Games",
+        "question": "The game &quot;Jetpack Joyride&quot; was created by &quot;Redbrick Studios&quot;.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "medium",
+        "category": "Entertainment: Video Games",
+        "question": "In Monster Hunter Generations, guild style is a type of hunting style.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "hard",
+        "category": "Science: Computers",
+        "question": "The T-Mobile Sidekick smartphone is a re-branded version of the Danger Hiptop.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "hard",
+        "category": "Entertainment: Video Games",
+        "question": "Unturned originally started as a Roblox game.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Geography",
+        "question": "Rhode Island is actually located on the US mainland, despite its name.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "General Knowledge",
+        "question": "On average, at least 1 person is killed by a drunk driver in the United States every hour.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "medium",
+        "category": "Science &amp; Nature",
+        "question": "A defibrillator is used to start up a heartbeat once a heart has stopped beating.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "medium",
+        "category": "Geography",
+        "question": "The Southeast Asian island of Borneo is politically divided among 3 countries.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Video Games",
+        "question": "Faust is a playable character in &quot;Guilty Gear Xrd Revelator&quot;.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Video Games",
+        "question": "Watch_Dogs 2 is a prequel.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    }
+]

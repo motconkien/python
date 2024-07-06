@@ -29,7 +29,7 @@ while len(guess_answer) < 50:
             if state not in guess_answer:
                 missing_state.append(state)
         df = pd.DataFrame(missing_state)
-        df.to_csv("states_to_learn.csv")
+        df.to_csv("Day25/states_to_learn.csv")
         break
 
 
