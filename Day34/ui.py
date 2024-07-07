@@ -10,6 +10,8 @@ class QuizInterface:
         self.window.config(bg=THEME_COLOR, padx=20, pady=20)
         self.score_label = Label(text=f"Score: {self.quiz.score}", fg = "white")
         self.score_label.grid(row = 0, column=1)
+        self.highscore_label = Label(text=f"High Score: {self.quiz.high_score}", fg = "white")
+        self.highscore_label.grid(row = 0, column=0)
 
         self.canvas = Canvas(width=300, height=250, bg="white")
         self.question_text = self.canvas.create_text(

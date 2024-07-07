@@ -5,6 +5,23 @@ class QuizBrain:
         self.question_number = 0
         self.question_list = q_list
         self.score = 0
+        self.high_score = self.load_high_score()
+    
+    def load_high_score(self):
+        try:
+            with open("Day34/score.txt") as file:
+                return int(file.read())
+        except FileNotFoundError:
+            return 0
+    
+    def save_high_score(self):
+        if self.high_score < self.score:
+            self.high_score = self.score
+            with open("Day34/score.txt", "w") as file:
+                file.write(f"{self.high_score}")
+                
+    def get_high_score(self):
+        return self.high_score
 
     def still_has_question(self):
         return self.question_number < len(self.question_list)
@@ -19,6 +36,9 @@ class QuizBrain:
         correct_answer = self.current_question.answer
         if user_answer.lower() == correct_answer.lower():
             self.score +=1
+            self.save_high_score()
             return True
         else:
             return False
+
+  
