@@ -13,7 +13,6 @@ NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
 API_KEY = os.environ.get("APIKEY")
 NEWS_API_KEY = os.environ.get("NEWAPI")
-
 parameters = {
     "function": "TIME_SERIES_DAILY",
     "symbol": STOCK_NAME,
