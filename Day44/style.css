@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.contact-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap:10px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px; /* Add space between columns */
+}
+.column {
+    padding: 20px;
+    box-sizing: border-box;
+}
+.left-column {
+    flex: 1 1 30%;
+    margin-right: 10px; /* Add right margin for the left column */
+}
+.right-column {
+    flex: 1 1 70%;
+    margin-left: 10px; /* Add left margin for the right column */
+}
