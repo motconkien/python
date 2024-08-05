@@ -59,11 +59,11 @@ Note: The day I completed would be active <br>
 * [Day 51](https://github.com/motconkien/python/tree/main/Day51): Internet Speed Twitter Complaint Bot
 * [Day 52](https://github.com/motconkien/python/tree/main/Day52): Instagram Follower Bot
 * [Day 53](https://github.com/motconkien/python/tree/main/Day53): Automated Data Entry Job
-* [Day 54](): Introduction to Web Development with Flask
-* [Day 55](): HTML & URL Parsing in Flask and the Higher Lower Game
-* [Day 56](): Rendering HTML/Static Files and Name Card Project
-* [Day 57](): Templating with Jinja and Blog Project
-* [Day 58](): Bootstrap
+* [Day 54](https://github.com/motconkien/python/tree/main/Day54): Introduction to Web Development with Flask
+* [Day 55](https://github.com/motconkien/python/tree/main/Day55): HTML & URL Parsing in Flask and the Higher Lower Game
+* Day 56: Rendering HTML/Static Files and Name Card Project
+* Day 57: Templating with Jinja and Blog Project
+* Day 58: Bootstrap
 
 # Advanced
 * Day 59: Upgraded Blog with Bootstrap
