@@ -1,5 +1,6 @@
-I choose "100 Days of Code: The Complete Python Pro Bootcamp" course from Udemy because I want to know more about Python and practice coding skills. Since my goal is to work in Data field, the course has good structure and better guidance than self-taught. While taking part in this course, I'll be using this repo as a way to access and store knowledge. Below is the guideline of course:
-Note: The day I completed would be active
+I choose "100 Days of Code: The Complete Python Pro Bootcamp" course from Udemy because I want to know more about Python and practice coding skills. Since my goal is to work in Data field, the course has good structure and better guidance than self-taught. While taking part in this course, I'll be using this repo as a way to access and store knowledge. Hope you can conference and if there has any problem, please feel free to contact me via email: hynuiux@gmail.com
+Below is the guideline of course. <br>
+Note: The day I completed would be active <br>
 # Beginner: 
 * [Day 1](https://github.com/motconkien/python/tree/main/Day1): Working with variables in Python to Manage data
 * [Day 2](https://github.com/motconkien/python/tree/main/Day2): Understanding Data types and How to Manipulate Strings
