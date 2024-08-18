@@ -12,7 +12,7 @@
         <div class="title"><h1>My Blog</h1></div>
     </div>
     {% for blog_post in blogs: %}
-        {% if blog_post,id == 1 %}
+        {% if blog_post.id == 1 %}
     <div class="content">
         <div class="card">
                 <h2>{{ blog_post.title }}</h2>
