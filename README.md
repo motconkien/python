@@ -63,10 +63,10 @@ Note: The day I completed would be active <br>
 * [Day 55](https://github.com/motconkien/python/tree/main/Day55): HTML & URL Parsing in Flask and the Higher Lower Game
 * [Day 56](https://github.com/motconkien/python/tree/main/Day56): Rendering HTML/Static Files and Name Card Project
 * [Day 57](https://github.com/motconkien/python/tree/main/Day57): Templating with Jinja and Blog Project
-* Day 58: Bootstrap
+* [Day 58](https://github.com/motconkien/python/tree/main/Day58): Bootstrap
 
 # Advanced
-* Day 59: Upgraded Blog with Bootstrap
+* [Day 59](https://github.com/motconkien/python/tree/main/Day59): Upgraded Blog with Bootstrap
 * Day 60: HTML Forms with Flask
 * Day 61: Building Advanced Forms with WTForms
 * Day 62: Flask, WTForms, Bootstrap and CSV - Coffee & Wifi Project
