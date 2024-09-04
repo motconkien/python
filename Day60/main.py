@@ -3,7 +3,7 @@ import requests
 import smtplib
 
 my_email = 'hoanghuyen.hh20897@gmail.com'
-password = 'vxcm rxhy oavm hsap'
+password = 'your pass here'
 
 response = requests.get("https://api.npoint.io/674f5423f73deab1e9a7")
 all_posts_raw = response.json()
