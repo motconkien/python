@@ -67,9 +67,9 @@ Note: The day I completed would be active <br>
 
 # Advanced
 * [Day 59](https://github.com/motconkien/python/tree/main/Day59): Upgraded Blog with Bootstrap
-* Day 60: HTML Forms with Flask
-* Day 61: Building Advanced Forms with WTForms
-* Day 62: Flask, WTForms, Bootstrap and CSV - Coffee & Wifi Project
+* [Day 60](https://github.com/motconkien/python/tree/main/Day60): HTML Forms with Flask
+* [Day 61](https://github.com/motconkien/python/tree/main/Day61): Building Advanced Forms with WTForms
+* [Day 62](https://github.com/motconkien/python/tree/main/Day62): Flask, WTForms, Bootstrap and CSV - Coffee & Wifi Project
 * Day 63: Databases and with SQLite and SQLAlchemy
 * Day 64: My Top 10 Movies Website
 * Day 65: Web Design School - How to Create a Website that People will Love
