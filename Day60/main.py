@@ -5,10 +5,15 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 
+<<<<<<< HEAD
 my_email = os.getenv('EMAIL')
 password = os.getenv('PASSWORD')
 
 print(my_email,password)
+=======
+my_email = 'hoanghuyen.hh20897@gmail.com'
+password = 'your pass here'
+>>>>>>> 771118c4c9b9b04a9920c71a36bee70334b2a451
 
 response = requests.get("https://api.npoint.io/674f5423f73deab1e9a7")
 all_posts_raw = response.json()
