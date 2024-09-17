@@ -1,9 +1,14 @@
 from flask import Flask, render_template, request
 import requests
 import smtplib
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
-my_email = 'hoanghuyen.hh20897@gmail.com'
-password = 'vxcm rxhy oavm hsap'
+my_email = os.getenv('EMAIL')
+password = os.getenv('PASSWORD')
+
+print(my_email,password)
 
 response = requests.get("https://api.npoint.io/674f5423f73deab1e9a7")
 all_posts_raw = response.json()

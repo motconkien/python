@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+
+{% block title %} Add a new cafe {% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-8">
+  
+        <h1>Add a new cafe into the database</h1>
+        <form id = 'myForm' method="POST" action="{{ url_for('add') }}" novalidate onsubmit="clearForm()">
+            {{ form.csrf_token}}
+            <p>
+                {{form.cafe.label}}
+                <br>
+                {{form.cafe(size=32)}}
+                {% for e in form.cafe.errors %}
+                    <span>{{ e }}</span>
+                {% endfor %}
+            </p>
+
+            <p>
+                {{form.location.label}}
+                <br>
+                {{form.location(size=32)}}
+                {% for e in form.cafe.errors %}
+                    <span>{{ e }}</span>
+                {% endfor %}
+            </p>
+
+            <p>
+                {{form.opentime.label}}
+                <br>
+                {{form.opentime(size=32)}}
+                {% for e in form.cafe.errors %}
+                    <span>{{ e }}</span>
+                {% endfor %}
+            </p>
+
+            <p>
+                {{form.closetime.label}}
+                <br>
+                {{form.closetime(size=32)}}
+                {% for e in form.cafe.errors %}
+                    <span>{{ e }}</span>
+                {% endfor %}
+            </p>
+
+            <p>
+                {{form.rating.label}}
+                <br>
+                {{form.rating(class = 'custom-select')}}
+                {% for e in form.cafe.errors %}
+                    <span>{{ e }}</span>
+                {% endfor %}
+            </p>
+
+            <p>
+                {{form.wifistrength.label}}
+                <br>
+                {{form.wifistrength(class = 'custom-select')}}
+                {% for e in form.cafe.errors %}
+                    <span>{{ e }}</span>
+                {% endfor %}
+            </p>
+
+            <p>
+                {{form.powersocket.label}}
+                <br>
+                {{form.powersocket(class = 'custom-select')}}
+                {% for e in form.cafe.errors %}
+                    <span>{{ e }}</span>
+                {% endfor %}
+            </p>
+
+            {{form.submit}}
+        </form>
+  
+        <p class="space-above"><a href="{{url_for('cafes')}}">See all cafes</a></p>
+  
+      </div>
+    </div>
+  </div>
+{% endblock%}

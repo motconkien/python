@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name = "viewport">
+    </head>
+
+    <body>
+        <h1> Welcome</h1>
+        <!--from here calling form from main py, if in tag has novalidate means dont care whatever site, it will show invalid information
+        form.email.label is calling to form object and get label of email-->
+        <form method="post" action="{{ url_for('login') }}" novalidate>
+            {{form.csrf_token}}
+            <p>
+            {{form.email.label}} <br> {{form.email(size=30)}}
+            {% for e in form.email.errors %}
+            <span style="color:red">{{e}}</span>
+            {% endfor %}
+            </p>
+
+            <p>
+            {{form.password.label}} <br> {{form.password(size=30)}}
+            {% for e in form.password.errors %}
+            <span style="color: red;">{{e}}</span>
+            {% endfor %}
+            </p>
+            {{form.submit}}
+        </form>
+    </body>
+
+</html>
