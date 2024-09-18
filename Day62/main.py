@@ -79,6 +79,7 @@ def write_to_csv(file_path,headers,data):
 def cafes():
     with open('Day62/cafe-data.csv','r') as file:
         csv_data = csv.reader(file, delimiter=',')
+        next(csv_data)
         list_of_rows =[row for row in csv_data]
         
     return render_template('cafes.html', cafes = list_of_rows)
