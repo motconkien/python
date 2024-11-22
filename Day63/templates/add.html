@@ -14,6 +14,7 @@
                 <span> {{ e }}</span>
                 {% endfor %}
             </p>
+            
             <p>{{ form.bookAuthor.label}} <br>
                 {{ form.bookAuthor(size=32)}}
                 {% for e in form.bookAuthor.errors %}
@@ -21,12 +22,15 @@
                 {% endfor %}
             </p>
 
-            <p>{{ form.rating.label}} <br>
-                {{ form.rating(size=32)}}
-                {% for e in form.rating.errors %}
+            <p>{{ form.bookRating.label}} <br>
+                {{ form.bookRating(size=32)}}
+                {% for e in form.bookRating.errors %}
                 <span> {{ e }}</span>
                 {% endfor %}
-            </p>
+               </p>
+            
+               {{ form.submit }}
        </form>
+       <p><a href="{{url_for ('home')}}">Return home</a></p>
     </body>
 </html>

@@ -7,10 +7,18 @@
 
     <body>
         <h1>My Library</h1>
-        <ul>
-            <li></li>
-        </ul>
-
-        <a href = '{{ url_for ("add")}}'>Add New Book</a>
+        {% if not allbooks %}
+            <p>Library is empty.</p>
+        {% else %}
+            {% for book in allbooks %}
+            <ul>
+               
+                <a href="{{ url_for('delete', title=book.title) }}">Delete</a>
+                <li>{{ book.title }} - {{ book.author }} - {{ book.rating }}/10</li>
+            </ul>
+            {% endfor %}
+        {% endif %}
+        <a href="{{ url_for('add') }}">Add New Book</a>
     </body>
+    
 </hmtl>
